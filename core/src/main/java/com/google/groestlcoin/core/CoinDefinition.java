@@ -134,8 +134,10 @@ public class CoinDefinition {
 
     //net.cpp strDNSSeed
     static public String[] dnsSeeds = new String[] {
-            "groestlcoin.net",
-            "groestlcoin.org"
+            "groestlcoin.org",
+            "electrum1.groestlcoin.org",
+            "electrum2.groestlcoin.org",
+            "jswallet.groestlcoin.org"
 
     };
 
@@ -196,6 +198,14 @@ public class CoinDefinition {
         checkpoints.put( 28888, new Sha256Hash("00000000000228ce19f55cf0c45e04c7aa5a6a873ed23902b3654c3c49884502"));
         checkpoints.put( 58888, new Sha256Hash("0000000000dd85f4d5471febeb174a3f3f1598ab0af6616e9f266b56272274ef"));
         checkpoints.put(111111, new Sha256Hash("00000000013de206275ee83f93bee57622335e422acbf126a37020484c6e113c"));
+        checkpoints.put(222222, new Sha256Hash("00000000077f5f09288285b68d68636e652f672279ba6a014fdc404fe902a631"));
+        checkpoints.put(333333, new Sha256Hash("00000000121e477df65543cd7289c4790ad6fee6cfa48b4391cc594141356d5f"));
+        checkpoints.put(444444, new Sha256Hash("0000000029558b975a9507a32895735b9d9437308fa3302e02ca3103d61d6447"));
+        checkpoints.put(555555, new Sha256Hash("000000000d62c3e8b8983f21b86123a5deea9ebabd162c6b13428e92866a6c1f"));
+        checkpoints.put(666666, new Sha256Hash("000000000603db2b89e2194214d41ccff6d1181e2d80774cf65d834e5bbd8ea1"));
+        checkpoints.put(777777, new Sha256Hash("00000000000649a9cd35bc39ab705379139cd72142dcba83c79ca425bc399c0b"));
+        checkpoints.put(888888, new Sha256Hash("000000000cce6537f3d8b22ab70a9925ba34bd9a9f850c9644f69d11ba0393e9"));
+        checkpoints.put(917000, new Sha256Hash("0000000012fe97c83a908d3217ce2df025fb8ba32c88bd86a14eb329e6c7259d"));
     }
 
     //Unit Test Information
